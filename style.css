@@ -1,0 +1,32 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color:aqua;
+}
+h1{
+    color: gold;
+}
+a{
+    color:aquamarine;
+}
+a:hover{
+    color:brown;
+}
+ul>li{
+    font-weight: bold;
+    color:beige;
+}
+p::first-letter{
+    font-size: 200%;
+    color:crimson;
+}
+ul li::before{
+    content: "• ";
+    color: lightblue;
+    font-weight: bold;
+}
+a::after{
+    content: "*";
+    color: lightgray;
+    font-style: italic;
+}
